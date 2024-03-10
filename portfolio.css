@@ -1,0 +1,148 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color:  #A09B92;
+}
+header{
+    text-align: center;
+    margin: 0;
+    color: bisque;
+    font-size: 1.5rem;
+   
+}
+nav{
+    text-align: center;
+    background-color: #14110F ;
+    padding: 0.8rem;
+
+    
+}
+nav ul li {
+    margin: 0;
+    padding:  10px ;
+    color:bisque;
+    font-size: 1rem;
+
+    display: inline-block;
+    
+    text-decoration: none;
+
+}
+ nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    
+
+ }
+ .home-section {
+    height: 100vh;
+    background-color:#34312D ;
+
+ }
+ .title-header {
+    float: left;
+margin-top: 18rem;
+margin-left: 2rem; 
+font-size: 1.5rem;
+color: aliceblue;
+ }
+
+
+.image-container{
+    float: right;
+    width: 45rem;
+    margin-top:0.4rem;
+    height: auto;
+
+}
+#about {
+    background-color:#57534C ;
+    padding: 1.2rem;
+    
+}
+#about h1{
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+
+}
+#about p {
+    text-align:center;
+    background-color: #787268;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: antiquewhite;
+    margin: 2rem;
+}
+#about iframe{ 
+    border-radius: 1rem;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+#work{
+    background-color: #34312D ;
+
+}
+#work h4{
+    text-align: center;
+    font-size: 2rem;
+    color:#fff ; 
+    padding: 2rem;
+
+}
+#work p{
+    text-align: center;
+    border-radius: 1rem;
+    background-color: #57534C;
+    font-size: 1.2rem;
+    color: bisque;
+    
+}
+#work img{
+    padding: 2rem;
+    border-radius: 2rem;
+    
+}
+#resume{
+    background-color: #A09B92;
+    padding: 1rem;
+    
+}
+#resume h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    padding: 2rem;
+
+}
+#resume p{
+    background-color: #57534C;
+    color: antiquewhite;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 1.1rem;
+}
+#contact{
+margin-left: 35rem;
+background-color: #57534c ;
+display: block;
+border-radius: 1rem;
+
+}
+footer p{
+    background-color: #14110F;
+    text-align: center;
+    color: #57534c;
+    padding: 1.5rem;
+    font-size: 1rem;
+
+
+}
